@@ -2,11 +2,13 @@ Option Explicit Off 'Para no tener que declarar i, j, k, etc dentro de ciclos fo
 
 Module VBModule
     Sub Main()
+        
         Dim numeros As Double() = { 8, 4, 1, 2, 9, 7, 3 }
         
         Dim bs As New BubbleSort()
         bs.Sort(numeros)
-        
+
+        Console.ReadKey()
     End Sub
 End Module
 
@@ -36,7 +38,7 @@ Module AnotherModule
                 Console.Write(myArray(k) & " ")
                 
             Next k
-                
+
         End Sub
     End Class
 End Module
