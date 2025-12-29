@@ -9,6 +9,7 @@ Module VBModule
         bs.Sort(numeros)
 
         Console.ReadKey()
+        
     End Sub
 End Module
 
